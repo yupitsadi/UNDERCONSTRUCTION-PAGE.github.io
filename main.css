@@ -82,7 +82,8 @@
       margin: 60px;
       display: flex;
       align-items: center;
-      margin-left: 280px;
+/*       margin-left: 280px; */
+         justify-content: center;
    }
    #contact .box{
       border: 2px solid black;
