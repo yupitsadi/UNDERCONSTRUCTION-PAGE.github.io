@@ -1,0 +1,116 @@
+body{
+    margin:0;
+    padding:0;
+    background-color: #dad9d9ea;
+    font-family: sans-serif;
+}
+.team-container
+{
+    width:100%;
+    height: auto;
+ 
+}
+.text
+{
+    color:BLACK;
+    font-size: 45px;
+    margin-top: 40px;
+    font-weight: 600;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-align: center;
+ 
+}
+.raw
+{
+    width: 60%;
+    margin:auto;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: center;
+}
+@media(max-width: 768px)
+{
+    .raw{
+        width: 100%;
+    }
+}
+.profile-card
+{
+    background-color: #000000;
+    width: 400px;
+    height: 420px;
+    margin: 20px 10px 10px 10px;
+    box-shadow: 2px 2px 2px 2px #7c7c7c;
+    border-radius: 4px;
+
+}
+@media(max-width: 468px)
+{
+    .profile-card
+    {
+        width: 400px;
+    height: 420px;
+    }
+}
+@media(max-width: 412px)
+{
+    .profile-card
+    {
+        width: 400px;
+    height: 420px;
+    }
+}
+.profile-content
+{
+    padding:15px;
+}
+.img-res{
+    width: 19em;
+    height: 12em;
+    /* border-radius: 50px; */
+}
+.profile-image
+{
+    text-align: center;
+}
+.desc
+{
+    text-align: center;
+}
+.desc h2
+{
+    color: WHITE;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.desc p{
+    font-size: 13px;
+    line-height: 1.3em;
+    margin-top: -10px;
+    color: WHITE;
+     
+}
+.btn-div
+{
+    text-align: center;
+}
+.btn
+{
+    background-color: rgb(149, 149, 149);
+    color: #ffffff;
+    width: 90px;
+    cursor: pointer;
+    height: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    box-shadow: 2px 2px 2px 2px #e6e6e6;
+    border-radius: 3px;
+    outline:none;
+    border:none;
+    text-transform: uppercase;
+}
