@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+
+
+.title{
+    padding: 0 0;
+}
+.button{
+    display:grid;
+    row-gap: 30px;
+    grid-template-columns: repeat(auto-fit,minmax(440px,1fr));
+    gap: 5%;
+    justify-items:center;
+    margin: 10px 30px;
+    margin-bottom: 10%;
+}
+.btn{
+    box-shadow: 5px 2px 12px;
+    margin-top: 3em;
+    margin-bottom: 40%;
+    height: 80%;
+    width: auto;
+    background-color: rgb(11, 7, 7);
+}
+.btn p{
+    color: white;
+    font-size: 20px;
+    
+}
+.btn h3{
+    color: rgb(0, 174, 255);
+    text-align: right;
+    padding-right: 10px;
+}
+.btn h1{
+    font-family: 'Manjari', sans-serif;
+    color: white;
+    padding-bottom: 50px;
+    font-weight: bold;
+    font-size: 70px;
+  
+}
+.btn img{
+  height: 50%;
+  width: 70%;
+
+}
+@media(max-width: 574px){
+    .btn{
+     
+      height: 90%;
+      width: auto;
+  }
+  .button{
+    margin-bottom: 30%
+  }
+  }
+  
+@media(max-width: 500px){
+    .btn{
+     
+      height: 90%;
+      width: auto;
+  }
+  .button{
+    margin-bottom: 10%
+  }
+  }
+  
